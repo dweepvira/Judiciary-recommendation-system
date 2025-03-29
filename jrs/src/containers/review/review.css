@@ -1,0 +1,51 @@
+.review_title {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 30%;
+}
+
+.review_title h1 {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 70px;
+    letter-spacing: 0.05em;
+    margin-top: 10px;
+    margin-left: -60px;
+
+}
+
+.case_table {
+    font-family: var(--font-family);
+    margin-top: 60px;
+    margin-bottom: 10px;
+    width: 100%;
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    border: 1px solid;
+    text-align: center;
+    margin-left: -20%;
+}
+
+td,
+th {
+    border: 1px solid white;
+    padding: 8px;
+}
+
+.table_data {
+    font-family: var(--font-family);
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+
+.table_body {
+    font-family: var(--font-family);
+    width: 100%;
+}
